@@ -1,0 +1,53 @@
+@media (max-width: 575.98px) {}
+
+@media (max-width: 767.98px) {}
+
+@media (max-width: 991.98px) {}
+
+@media (max-width: 1199.98px) {}
+
+body {
+    background-color: black;
+    overflow-x: hidden;
+    color: white;
+    height: 100%;
+    width: 100%;
+}
+
+.header_hr {
+    border: 1px solid white;
+    width: 25%;
+    text-align: left;
+    margin-left: 0
+}
+
+.header_intro {
+    padding-left: 10%;
+}
+
+#logo {
+    margin-left: 8%;
+}
+
+#scroll {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.works_border {
+    border: white solid 1px;
+    border-radius: 20px;
+}
+
+.works_tag {
+    background-color: #fff;
+    margin-left: -48px;
+    padding: 5px 10px 5px 20px;
+    color: black;
+    width: 7rem;
+}
+
+.work_content{
+    line-height: 200%;
+}
