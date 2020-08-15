@@ -48,6 +48,29 @@ body {
     width: 7rem;
 }
 
-.work_content{
+.work_content {
     line-height: 200%;
+}
+
+.blog_img {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    height: 200px;
+    width: 100%;
+}
+
+.blog_tag {
+    background-color: #fff;
+    color: black;
+    width: 7rem;
+    padding: 5px 10px 5px 5px;
+    position: absolute;
+    left: 0px;
+    top: 1rem;
+    z-index: 1;
+}
+
+#footer {
+    margin-top: 15rem;
+    margin-bottom: 15rem;
 }
