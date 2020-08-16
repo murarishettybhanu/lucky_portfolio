@@ -6,19 +6,74 @@
 
 @media (max-width: 1199.98px) {}
 
+@font-face {
+    font-family: Gilroy-light;
+    src: url(../fonts/Gilroy/Gilroy-Light.ttf);
+}
+
+@font-face {
+    font-family: Gilroy-Medium;
+    src: url(../fonts/Gilroy/Gilroy-Medium.ttf);
+}
+
+@font-face {
+    font-family: Gilroy-SemiBold;
+    src: url(../fonts/Gilroy/Gilroy-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Gilroy-Regular;
+    src: url(../fonts/Gilroy/Gilroy-Regular.ttf);
+}
+
 body {
     background-color: black;
     overflow-x: hidden;
     color: white;
-    height: 100%;
-    width: 100%;
 }
+
+nav {
+    margin-top: 2rem;
+}
+
+.nav-link {
+    font-family: Gilroy-Medium;
+    font-size: 16px;
+    line-height: 84.3%;
+}
+
+#header_intro_l1 {
+    font-family: Gilroy-light;
+    font-size: 36px;
+    line-height: 84.3%;
+}
+
+#header_intro_l2 {
+    font-family: Gilroy-Medium;
+    font-size: 48px;
+    line-height: 84.3%;
+}
+
+#header_intro_l3 {
+    font-family: Gilroy-Medium;
+    font-size: 24px;
+    line-height: 84.3%;
+}
+
+#header_intro_p {
+    font-family: Gilroy-SemiBold;
+    font-size: 18px;
+    line-height: 150%;
+    margin-bottom: 2rem;
+}
+
 
 .header_hr {
     border: 1px solid white;
     width: 25%;
     text-align: left;
-    margin-left: 0
+    margin-left: 0;
+    margin-bottom: 1.5rem;
 }
 
 .header_intro {
@@ -40,12 +95,48 @@ body {
     border-radius: 20px;
 }
 
+.section_heading {
+    margin-top: 8rem;
+    margin-bottom: 6rem;
+    font-family: Gilroy-Medium;
+    font-size: 36px;
+    line-height: 84.3%;
+}
+
 .works_tag {
     background-color: #fff;
     margin-left: -48px;
     padding: 5px 10px 5px 20px;
     color: black;
     width: 7rem;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 84.3%;
+}
+
+.work-read-time {
+
+    font-family: Gilroy-Regular;
+    font-size: 12px;
+    line-height: 84.3%;
+}
+
+.work-title {
+    font-family: Gilroy-Medium;
+    font-size: 24px;
+    line-height: 120%;
+}
+
+.work-spec {
+    font-family: Gilroy-Regular;
+    font-size: 18px;
+    line-height: 84.3%;
+}
+
+.work-info {
+    font-family: Gilroy-Regular;
+    font-size: 18px;
+    line-height: 150%
 }
 
 .work_content {
@@ -70,7 +161,83 @@ body {
     z-index: 1;
 }
 
+.blog-title {
+    font-family: Gilroy-SemiBold;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.blog-info {
+    font-family: Gilroy-Regular;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.about-title {
+    font-family: Gilroy-Medium;
+    font-size: 36px;
+    line-height: 84.3%;
+}
+
+.about-content {
+
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 163%;
+}
+
+.about_stats {
+    margin-top: 5rem;
+    margin-bottom: 6rem;
+}
+
+.about-stat-number {
+
+    font-family: Barlow Condensed;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 62px;
+}
+
+.about-stat-info {
+    font-family: Gilroy-Regular;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.about-pass-title {
+    font-family: Gilroy-Medium;
+    font-size: 36px;
+    line-height: 84.3%;
+}
+
+.about-pass-desc {
+
+    font-family: Gilroy-Regular;
+    font-size: 18px;
+    line-height: 84.3%;
+}
+
 #footer {
     margin-top: 15rem;
     margin-bottom: 15rem;
+}
+
+.footer-title {
+    font-family: Gilroy-Medium;
+    font-size: 36px;
+    line-height: 100%;
+}
+
+.footer-subtitle {
+    font-family: Gilroy-Medium;
+    font-size: 24px;
+    line-height: 100%;
+}
+
+.footer-mail {
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 21px;
 }
