@@ -26,10 +26,20 @@
     src: url(../fonts/Gilroy/Gilroy-Regular.ttf);
 }
 
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(../fonts/Gilroy/Gilroy-Bold.ttf);
+}
+
 body {
     background-color: black;
     overflow-x: hidden;
     color: white;
+}
+
+.resume_button {
+    background-color: transparent;
+    border: white solid 1px;
 }
 
 nav {
@@ -78,6 +88,7 @@ nav {
 
 .header_intro {
     padding-left: 10%;
+    padding-top: 10%;
 }
 
 #logo {
@@ -88,6 +99,7 @@ nav {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: -6rem;
 }
 
 .works_border {
@@ -106,7 +118,7 @@ nav {
 .works_tag {
     background-color: #fff;
     margin-left: -48px;
-    padding: 5px 10px 5px 20px;
+    padding: 15px 10px 15px 43px;
     color: black;
     width: 7rem;
     font-family: Gilroy-Medium;
@@ -143,10 +155,16 @@ nav {
     line-height: 200%;
 }
 
+.blog_border {
+    border: white solid 1px;
+    border-radius: 12px;
+}
+
 .blog_img {
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    height: 200px;
+    /* border-top-right-radius: 20px;
+    border-top-left-radius: 20px; */
+    border-radius: 12px;
+    height: 250px;
     width: 100%;
 }
 
@@ -154,11 +172,14 @@ nav {
     background-color: #fff;
     color: black;
     width: 7rem;
-    padding: 5px 10px 5px 5px;
+    padding: 12px 10px 12px 8px;
     position: absolute;
     left: 0px;
     top: 1rem;
     z-index: 1;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 84.3%;
 }
 
 .blog-title {
@@ -225,6 +246,7 @@ nav {
 }
 
 .footer-title {
+    color: #717171;
     font-family: Gilroy-Medium;
     font-size: 36px;
     line-height: 100%;
@@ -240,4 +262,29 @@ nav {
     font-family: Gilroy-Medium;
     font-size: 18px;
     line-height: 21px;
+}
+
+#cs_gm_title {
+    font-family: Gilroy-Bold;
+    font-size: 36px;
+    line-height: 21px;
+}
+
+.cs_gm_phase {
+    font-family: Gilroy-SemiBold;
+    font-size: 34px;
+    line-height: 21px;
+    color: #717171;
+}
+
+.cs_gm_subtitle {
+    font-family: Gilroy-SemiBold;
+    font-size: 26px;
+    line-height: 21px;
+}
+
+.cs_gm_content {
+    font-family: Gilroy-Regular;
+    font-size: 20px;
+    line-height: 28px;
 }
