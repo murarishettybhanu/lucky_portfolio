@@ -19,13 +19,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="stylesheets/styles.css">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
     <!-- header start -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light mb-5 ">
-            <a class="navbar-brand" id="logo" href="#"><img src="images/Lucky.png" alt=""></a>
+        <nav class="navbar navbar-expand-lg navbar-light mb-5">
+            <a class="navbar-brand" id="logo" href="index.html"><img src="images/Lucky.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"><i class="fa fa-bars" style="font-size:32px;color:white"></i>
@@ -33,12 +35,13 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ml-auto">
-                    <a class="nav-item nav-link active text-light ml-4 mr-4" href="#">Home <span
+                    <a class="nav-item nav-link active text-light ml-4 mr-4" href="index.html">Home <span
                             class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link text-light ml-4 mr-4" href="#">Works</a>
-                    <a class="nav-item nav-link text-light ml-4 mr-4" href="#">Blogs</a>
-                    <a class="nav-item nav-link text-light ml-4 mr-4" href="#">About</a>
-                    <a class="nav-item nav-link text-light ml-4 mr-5 btn resume_button" href="#">Resume</a>
+                    <a class="nav-item nav-link text-light ml-4 mr-4" href="index.html#works">Works</a>
+                    <a class="nav-item nav-link text-light ml-4 mr-4" href="index.html#blogs">Blogs</a>
+                    <a class="nav-item nav-link text-light ml-4 mr-4" href="index.html#about">About</a>
+                    <a class="nav-item nav-link text-light ml-4 mr-5 btn resume_button" target="_blank"
+                        href="./Resume/Lakshman_resume.pdf">Resume</a>
                 </div>
             </div>
         </nav>
@@ -74,28 +77,30 @@
     <!-- header end -->
 
     <!-- works section start -->
-    <div class="container">
+    <div class="container" id="works">
         <h5 class="text-center section_heading">Works</h5>
-        <a href="./gandhiMuseum.html" class="work_anchor">
-            <div class="works_border p-5">
-                <p class="works_tag">N e w</p>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="pt-5">
-                            <p class="work-read-time">8 min read</p>
-                            <h5 class="work_content work-title">Enhancing the experience of Gandhi Museum</h5>
-                            <h6 class="work_content work-spec">UX Research & design</h6><br><br>
-                            <p class="work-info">Type: Internship project<br>Duration: 1 month</p>
+        <div data-aos="fade-right" data-aos-easing="ease" data-aos-duration="1000">
+            <a href="./gandhiMuseum.html" class="work_anchor">
+                <div class="works_border p-5">
+                    <p class="works_tag">N E W</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="pt-5">
+                                <p class="work-read-time">8 min read</p>
+                                <h5 class="work_content work-title">Enhancing the experience of Gandhi Museum</h5>
+                                <h6 class="work_content work-spec">UX Research & design</h6><br><br>
+                                <p class="work-info">Type: Internship project<br>Duration: 1 month</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="./images/casestudycoverphotos/1.jpg" width="100%" alt="">
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <img src="./images/casestudycoverphotos/1.jpg" width="100%" alt="">
-                    </div>
                 </div>
-            </div>
-        </a>
+            </a>
+        </div>
         <div class="row mt-4">
-            <div class="col-md-6 mt-3">
+            <div class="col-md-6 mt-3" data-aos="fade-right" data-aos-easing="ease" data-aos-duration="1000">
                 <a href="./wagon.html" class="work_anchor">
                     <div class="col-md-12 works_border p-5">
                         <div class="row">
@@ -116,7 +121,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-md-6 mt-3">
+            <div class="col-md-6 mt-3" data-aos="fade-left" data-aos-easing="ease" data-aos-duration="1000">
                 <a href="./dev.html" class="work_anchor">
                     <div class="col-md-12 works_border p-5">
                         <div class="row">
@@ -138,12 +143,26 @@
                 </a>
             </div>
         </div>
+        <div class="row mt-4">
+            <div class="col-md-6 mt-3" data-aos="fade-right" data-aos-easing="ease" data-aos-duration="1000">
+                <a href="https://dribbble.com/Lucky_28" target="_blank" class="work_anchor">
+                    <img src="./images/casestudycoverphotos/21.png" class="works_border" style="border-radius: 20px;"
+                        width="100%" alt="">
+                </a>
+            </div>
+            <div class="col-md-6 mt-3" data-aos="fade-left" data-aos-easing="ease" data-aos-duration="1000">
+                <a href="https://dribbble.com/Lucky_28" target="_blank" class="work_anchor">
+                    <img src="./images/casestudycoverphotos/22.jpg" class="works_border" style="border-radius: 20px;"
+                        width="100%" alt="">
+                </a>
+            </div>
+        </div>
     </div>
     <!-- works section end -->
     <!-- blogs section start -->
-    <div class="container">
+    <div class="container" id="blogs">
         <h5 class="text-center section_heading">Blogs</h5>
-        <div class="row mt-5">
+        <div class="row mt-5" data-aos="fade-right" data-aos-easing="ease" data-aos-duration="1000">
             <div class="col-md-3 mt-3">
                 <a href="https://uxplanet.org/cognitive-psychology-in-ux-cd7afed87886" class="work_anchor"
                     target="_blank">
@@ -198,7 +217,7 @@
                 </a>
             </div>
         </div>
-        <div class="row mt-5">
+        <div class="row mt-5" data-aos="fade-left" data-aos-easing="ease" data-aos-duration="1000">
             <div class="col-md-3 mt-3">
                 <a href="https://medium.com/usabilitygeek/pillars-of-the-ui-design-cf3d74927c56" target="_blank"
                     class="work_anchor">
@@ -259,7 +278,7 @@
     <!-- blogs section end -->
 
     <!-- about section start -->
-    <div class="container">
+    <div class="container" id="about">
         <h5 class="text-center section_heading">About</h5>
         <div>
             <img src="images/quotes.png" alt="">
@@ -292,16 +311,18 @@
         <div>
             <h3 class="about-pass-title">So, what I do in my pass time</h3>
             <p class="about-pass-desc mt-3">I go for cycling, I do photography</p>
-            <div class="row mt-5 d-flex justify-content-around">
+            <div class="row mt-5 d-flex justify-content-around" data-aos="fade-right" data-aos-easing="ease"
+                data-aos-duration="1000">
                 <img src="./images/free_time/20200219_092634.jpg" height="550px" width="350" alt="">
                 <img src="./images/free_time/20200212_081024 (1).jpg" height="550px" width="350" alt="">
-                <img src="./images/free_time/20200219_092634.jpg" height="550px" width="350" alt="">
+                <img src="./images/free_time/20200218_062004.jpg" height="550px" width="350" alt="">
             </div>
             <p class="about-pass-desc mt-5">and quarantine got me designing IG filters.</p>
-            <div class="row mt-5 d-flex justify-content-around">
+            <div class="row mt-5 d-flex justify-content-around" data-aos="fade-left" data-aos-easing="ease"
+                data-aos-duration="1000">
                 <img src="./videos/IG/ezgif.com-video-to-gif.gif" height="550px" width="350" alt="">
-                <img src="./videos/IG/ezgif.com-video-to-gif.gif" height="550px" width="350" alt="">
-                <img src="./videos/IG/ezgif.com-video-to-gif.gif" height="550px" width="350" alt="">
+                <img src="./videos/IG/1.gif" height="550px" width="350" alt="">
+                <img src="./videos/IG/2.gif" height="550px" width="350" alt="">
             </div>
         </div>
     </div>
@@ -313,7 +334,10 @@
             <div class="text-center">
                 <h1 class="footer-title">This doesn’t have to be over...</h1>
                 <h3 class="footer-subtitle">Connect with me to see my other side</h3>
-                <br><br>
+                <br>
+                <a class="nav-item nav-link text-light ml-4 mr-5 btn resume_button w-25 mx-auto" target="_blank"
+                    style="padding: 20px 0px;" href="./Resume/Lakshman_resume.pdf">Resume</a>
+                <br>
                 <p class="footer-mail"><i class="fa fa-envelope-o"></i>&nbsp;&nbsp; lakshman30199@gmail.com</p>
                 <br>
                 <div class="d-flex justify-content-center">
@@ -333,7 +357,35 @@
             </div>
         </div>
     </footer>
+    <p class="text-center about-content">Copyright-2020 © All rights reserved | <b>Lakshman Sharma</b></p>
     <!-- footer end -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-chevron-up"></i>
+    </button>
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
