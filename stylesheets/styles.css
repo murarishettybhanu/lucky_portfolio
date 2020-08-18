@@ -155,6 +155,15 @@ nav {
     line-height: 200%;
 }
 
+.work_anchor {
+    color: white;
+}
+
+.work_anchor:hover {
+    color: white;
+    text-decoration: none;
+}
+
 .blog_border {
     border: white solid 1px;
     border-radius: 12px;
@@ -264,26 +273,26 @@ nav {
     line-height: 21px;
 }
 
-#cs_gm_title {
+#cs_title {
     font-family: Gilroy-Bold;
     font-size: 36px;
     line-height: 21px;
 }
 
-.cs_gm_phase {
+.cs_phase {
     font-family: Gilroy-SemiBold;
     font-size: 34px;
     line-height: 21px;
     color: #717171;
 }
 
-.cs_gm_subtitle {
+.cs_subtitle {
     font-family: Gilroy-SemiBold;
     font-size: 26px;
     line-height: 21px;
 }
 
-.cs_gm_content {
+.cs_content {
     font-family: Gilroy-Regular;
     font-size: 20px;
     line-height: 28px;
