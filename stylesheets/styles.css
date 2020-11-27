@@ -11,28 +11,28 @@ html {
 }
 
 @font-face {
-    font-family: Gilroy-light;
-    src: url(../fonts/Gilroy/Gilroy-Light.ttf);
+    font-family: Futura-light;
+    src: url(../fonts/futura/futura\ light\ bt.ttf);
 }
 
 @font-face {
-    font-family: Gilroy-Medium;
-    src: url(../fonts/Gilroy/Gilroy-Medium.ttf);
+    font-family: Futura-Medium;
+    src: url(../fonts/futura/Futura\ XBlk\ BT.ttf);
 }
 
 @font-face {
-    font-family: Gilroy-SemiBold;
-    src: url(../fonts/Gilroy/Gilroy-SemiBold.ttf);
+    font-family: Futura-Heavy;
+    src: url(../fonts/futura/Futura\ Heavy\ font.ttf);
 }
 
 @font-face {
-    font-family: Gilroy-Regular;
-    src: url(../fonts/Gilroy/Gilroy-Regular.ttf);
+    font-family: Futura;
+    src: url(../fonts/futura/futur.ttf);
 }
 
 @font-face {
-    font-family: Gilroy-Bold;
-    src: url(../fonts/Gilroy/Gilroy-Bold.ttf);
+    font-family: Futura-Bold;
+    src: url(../fonts/futura/Futura\ Bold\ font.ttf);
 }
 
 body {
@@ -55,31 +55,31 @@ nav {
 }
 
 .nav-link {
-    font-family: Gilroy-Medium;
+    font-family: Futura-Medium;
     font-size: 16px;
     line-height: 84.3%;
 }
 
 #header_intro_l1 {
-    font-family: Gilroy-light;
+    font-family: Futura-light;
     font-size: 36px;
     line-height: 84.3%;
 }
 
 #header_intro_l2 {
-    font-family: Gilroy-Medium;
+    font-family: Futura-Medium;
     font-size: 48px;
     line-height: 84.3%;
 }
 
 #header_intro_l3 {
-    font-family: Gilroy-Medium;
+    font-family: Futura-Medium;
     font-size: 24px;
     line-height: 84.3%;
 }
 
 #header_intro_p {
-    font-family: Gilroy-SemiBold;
+    font-family: Futura-Heavy;
     font-size: 18px;
     line-height: 150%;
     margin-bottom: 2rem;
@@ -96,7 +96,7 @@ nav {
 
 .header_intro {
     padding-left: 10%;
-    padding-top: 10%;
+    padding-top: 8%;
 }
 
 #logo {
@@ -118,43 +118,43 @@ nav {
 .section_heading {
     margin-top: 8rem;
     margin-bottom: 6rem;
-    font-family: Gilroy-Medium;
+    font-family: Futura-Medium;
     font-size: 36px;
     line-height: 84.3%;
 }
 
 .works_tag {
-    background-color: #fff;
+    background-image: linear-gradient(to right, #00E5FF, #3885F9,#594DF6);
     margin-left: -48px;
     padding: 15px 10px 15px 43px;
-    color: black;
+    color: white;
     width: 7rem;
-    font-family: Gilroy-Medium;
+    font-family: Futura-Medium;
     font-size: 18px;
     line-height: 84.3%;
 }
 
 .work-read-time {
 
-    font-family: Gilroy-Regular;
+    font-family: Futura;
     font-size: 12px;
     line-height: 84.3%;
 }
 
 .work-title {
-    font-family: Gilroy-Medium;
+    font-family: Futura-Medium;
     font-size: 24px;
     line-height: 120%;
 }
 
 .work-spec {
-    font-family: Gilroy-Regular;
+    font-family: Futura;
     font-size: 18px;
     line-height: 84.3%;
 }
 
 .work-info {
-    font-family: Gilroy-Regular;
+    font-family: Futura;
     font-size: 18px;
     line-height: 150%
 }
@@ -194,32 +194,32 @@ nav {
     left: 0px;
     top: 1rem;
     z-index: 1;
-    font-family: Gilroy-Medium;
+    font-family: Futura-Medium;
     font-size: 18px;
     line-height: 84.3%;
 }
 
 .blog-title {
-    font-family: Gilroy-SemiBold;
+    font-family: Futura-Heavy;
     font-size: 14px;
     line-height: 20px;
 }
 
 .blog-info {
-    font-family: Gilroy-Regular;
+    font-family: Futura;
     font-size: 12px;
     line-height: 14px;
 }
 
 .about-title {
-    font-family: Gilroy-Medium;
+    font-family: Futura-Medium;
     font-size: 36px;
     line-height: 84.3%;
 }
 
 .about-content {
 
-    font-family: Gilroy-Medium;
+    font-family: Futura-Medium;
     font-size: 18px;
     line-height: 163%;
 }
@@ -239,20 +239,20 @@ nav {
 }
 
 .about-stat-info {
-    font-family: Gilroy-Regular;
+    font-family: Futura;
     font-size: 18px;
     line-height: 21px;
 }
 
 .about-pass-title {
-    font-family: Gilroy-Medium;
+    font-family: Futura-Medium;
     font-size: 36px;
     line-height: 84.3%;
 }
 
 .about-pass-desc {
 
-    font-family: Gilroy-Regular;
+    font-family: Futura;
     font-size: 18px;
     line-height: 84.3%;
 }
@@ -264,44 +264,44 @@ nav {
 
 .footer-title {
     color: #717171;
-    font-family: Gilroy-Medium;
+    font-family: Futura-Medium;
     font-size: 36px;
     line-height: 100%;
 }
 
 .footer-subtitle {
-    font-family: Gilroy-Medium;
+    font-family: Futura-Medium;
     font-size: 24px;
     line-height: 100%;
 }
 
 .footer-mail {
-    font-family: Gilroy-Medium;
+    font-family: Futura-Medium;
     font-size: 18px;
     line-height: 21px;
 }
 
 #cs_title {
-    font-family: Gilroy-Bold;
+    font-family:Futura-Bold;
     font-size: 36px;
     line-height: 30px;
 }
 
 .cs_phase {
-    font-family: Gilroy-SemiBold;
+    font-family: Futura-Heavy;
     font-size: 34px;
     line-height: 21px;
     color: #717171;
 }
 
 .cs_subtitle {
-    font-family: Gilroy-SemiBold;
+    font-family: Futura-Heavy;
     font-size: 26px;
     line-height: 21px;
 }
 
 .cs_content {
-    font-family: Gilroy-Regular;
+    font-family: Futura;
     font-size: 17px;
     line-height: 28px;
 }
@@ -323,7 +323,7 @@ nav {
 .more_btn {
     background-color: transparent;
     border: white solid 1px;
-    font-family: Gilroy-Medium;
+    font-family: Futura-Medium;
     font-size: 18px;
     line-height: 21px;
     margin: 2rem 0rem;
